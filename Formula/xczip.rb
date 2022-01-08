@@ -13,7 +13,9 @@ class Xczip < Formula
            "--disable-sandbox",
            "--build-path", buildpath.to_s
 
-    libexec.install buildpath/"release/xczip" => "xczip"
+    system "install", "-d", "#{prefix}/bin"
+    system "install", buildpath/"release/xczip", "#{prefix}/bin"
+
   end
 
   test do
