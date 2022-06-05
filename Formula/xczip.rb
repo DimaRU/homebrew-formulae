@@ -1,7 +1,7 @@
 class Xczip < Formula
   desc "Create xcframework zip archive for Swift binary package"
   homepage "https://github.com/DimaRU/xczip"
-  url "https://github.com/DimaRU/xczip.git", tag: "1.1.0", revision: "6bc52cfd3ae3eb8cdc254cb0e1582f1d7431afa7"
+  url "https://github.com/DimaRU/xczip.git", tag: "1.2.0", revision: "5ea576c12104ac1ceac59e876055fea5490414ff"
   license "MIT"
   head "https://github.com/DimaRU/xczip.git", branch: "master", shallow: false
 
