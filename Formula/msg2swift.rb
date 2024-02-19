@@ -1,7 +1,7 @@
 class Msg2swift < Formula
   desc "Generate Swift model for ROS message file."
   homepage "https://github.com/DimaRU/Msg2swift"
-  url "https://github.com/DimaRU/Msg2swift.git"
+  url "https://github.com/DimaRU/Msg2swift.git", tag: "v1.0.0", revision: "88009d475483ad58ec1cb41080546178ff1dc48f"
   license "MIT"
   head "https://github.com/DimaRU/Msg2swift.git", branch: "master", shallow: false
 
