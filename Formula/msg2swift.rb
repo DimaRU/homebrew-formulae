@@ -1,4 +1,4 @@
-class msg2swift < Formula
+class Msg2swift < Formula
   desc "Generate Swift model for ROS message file."
   homepage "https://github.com/DimaRU/Msg2swift"
   url "https://github.com/DimaRU/Msg2swift.git"
